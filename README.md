@@ -51,7 +51,7 @@ make <OPTION>
 ### Options:  
 
 Options | Description | In Terminal
-:-|:-:|:-:|:-:|:-|
+:-|:-|:-|
 run | Run the program with args | ```go run container.go run /bin/bash```
 build | Just simply build the project | ```go build container.go```
 exec | Execute the binary created by the build (With sudo) and the appropriated args| ```sudo ./container run /bin/bash``` 
