@@ -52,4 +52,4 @@ https://www.youtube.com/watch?v=Utf-A4rODH8
 
 ## Contributors
 
-- valentinmne 
+- valentinmne : valentin.moine@protonmail.com
