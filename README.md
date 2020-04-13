@@ -31,10 +31,14 @@ To help you to see better how a Container work "Globally"
 git clone "git@github.com:valentinmne/Go-Docker-Container.git"
 cd Go-Docker-container
 ```
-### Run
+### Run the shell script to have the ROOTFS sample
 
+```
+sudo chmod +x rootfs.sh
+./rootfs.sh
+```
 
-Simply execute :
+## Execute Go script :
 
 ```
 go run container.go run /bin/bash
@@ -46,7 +50,7 @@ make <OPTION>
 ```
 ### Options:  
 
-Option name| Description | In Terminal
+Options | Description | In Terminal
 :-|:-:|:-:|:-:|:-|
 run | Run the program with args | ```go run container.go run /bin/bash```
 build | Just simply build the project | ```go build container.go```
