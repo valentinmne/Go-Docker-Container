@@ -39,6 +39,22 @@ Simply execute :
 ```
 go run container.go run /bin/bash
 ```
+
+### With Makefile
+```
+make <OPTION>
+```
+### Options:  
+
+Option name| Description | In Terminal
+:-|:-:|:-:|:-:|:-|
+run | Run the program with args | ```go run container.go run /bin/bash```
+build | Just simply build the project | ```go build container.go```
+exec | Execute the binary created by the build (With sudo) and the appropriated args| ```sudo ./container run /bin/bash``` 
+full-build | Combination of ```build``` and ```exec``` commands | ```go build container.go && sudo ./container run /bin/bash```
+rm | Remove the binary file | ```sudo rm -rf container```
+re | Combination of ```erase``` and ```full-build``` commands | ```sudo rm -rf container && go build container.go && sudo ./container run /bin/bash```
+
 ### Currently implemented
 
 - Own PID
