@@ -22,7 +22,7 @@ To help you to see better how a Container work "Globally"
 
  - You need to have Golang installed 
 ```diff
-- You need to have ROOT ACESS
+- You need to have ROOT ACCESS
 ```
 
 ### Clone this repo
